@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@config "../../tailwind.config.ts";
+/* Removed Flowbite plugin and source to reduce CSS bloat and render-blocking */
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.tooltip {
+  position: absolute;
+  display: none;
+}
+
+.has-tooltip:hover .tooltip {
+  display: block;
+  z-index: 50;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Line clamp utilities (2–3 lines) */
+  .line-clamp-2 {
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Flatter design utilities */
+  .flat-card {
+    @apply border border-gray-200 hover:border-gray-300 transition-colors duration-200;
+  }
+
+  .flat-button {
+    @apply rounded-minimal transition-all duration-200 hover:translate-y-[-1px];
+  }
+
+  .flat-shadow {
+    box-shadow: none;
+  }
+
+  /* Horizontal marquee animation */
+  @keyframes csag-scroll-x {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* Prose (markdown) table styling */
+@layer components {
+  /* Unified form controls */
+  .csag-label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+  }
+  .csag-input {
+    @apply w-full bg-white text-gray-900 placeholder:text-gray-400 border border-gray-300 rounded-minimal px-4 py-3 focus:outline-none focus:ring-2 focus:ring-csag-primary focus:border-transparent transition-all duration-200;
+  }
+  .csag-select {
+    @apply w-full bg-white text-gray-900 border border-gray-300 rounded-minimal px-4 py-3 focus:outline-none focus:ring-2 focus:ring-csag-primary focus:border-transparent transition-all duration-200;
+  }
+  .csag-textarea {
+    @apply w-full bg-white text-gray-900 placeholder:text-gray-400 border border-gray-300 rounded-minimal px-4 py-3 focus:outline-none focus:ring-2 focus:ring-csag-primary focus:border-transparent transition-all duration-200;
+  }
+  .csag-input-dark {
+    @apply w-full bg-gray-700 text-white placeholder:text-gray-400 border border-gray-600 rounded-minimal px-4 py-3 focus:outline-none focus:ring-2 focus:ring-csag-primary focus:border-transparent transition-all duration-200;
+  }
+  .csag-button-primary {
+    @apply inline-flex items-center justify-center bg-csag-primary hover:bg-csag-primary/90 text-white font-semibold px-6 py-3 rounded-minimal transition-all duration-200 hover:translate-y-[-1px] disabled:opacity-60;
+  }
+  .csag-button-accent {
+    /* Orange on dark text ensures >= 4.5:1 contrast */
+    @apply inline-flex items-center justify-center bg-csag-accent hover:bg-csag-accent-dark text-gray-900 font-semibold px-6 py-3 rounded-minimal transition-all duration-200 hover:translate-y-[-1px] disabled:opacity-60;
+  }
+  .prose table {
+    @apply w-full text-sm border-collapse;
+  }
+  .prose thead th {
+    @apply border border-gray-200 bg-gray-50 text-gray-700 font-semibold;
+  }
+  .prose tbody td {
+    @apply border border-gray-200;
+  }
+  .prose th,
+  .prose td {
+    @apply px-3 py-2 align-top;
+  }
+  .prose tbody tr:nth-child(even) {
+    @apply bg-gray-50/50;
+  }
+}
+
+html,
+body {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root:has(.disable-page-scroll) {
+  overflow: hidden;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 84% 5%;
+    --primary: 189 100% 23.7%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 147 50% 34.5%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 208 100% 22.7%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* New color palette with #006172 as primary */
+    --primary-blue: 189 100% 22%;
+    --primary-blue-foreground: 0 0% 100%;
+    --primary-blue-light: 189 100% 32%;
+    --primary-blue-dark: 189 100% 15%;
+    --accent-orange: 25 95% 53%;
+    --accent-orange-light: 25 95% 63%;
+    --accent-orange-dark: 25 95% 43%;
+  }
+
+  body {
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+  .ProseMirror ul {
+    list-style: disc;
+    padding-left: 1rem; /* Equivalent to pl-4 */
+  }
+
+  .ProseMirror ol {
+    list-style: decimal;
+    padding-left: 1rem; /* Equivalent to pl-4 */
+  }
+
+  .ProseMirror a {
+    color: #006172; /* Primary blue color */
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    text-underline-offset: 2px;
+  }
+
+  .ProseMirror a:hover {
+    text-decoration: underline;
+  }
+
+  .ProseMirror u {
+    text-underline-offset: 2px;
+  }
+
+  h2 {
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    line-height: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    line-height: 2rem;
+  }
+}
