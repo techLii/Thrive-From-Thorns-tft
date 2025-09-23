@@ -2,7 +2,7 @@ import { projects } from "@/app/(pages)/our-projects/content/projects";
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "./(pages)/blog/lib/posts";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://example.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
