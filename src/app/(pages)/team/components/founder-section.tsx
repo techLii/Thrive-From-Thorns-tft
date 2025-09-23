@@ -1,4 +1,4 @@
-import moment from "moment-timezone";
+//import moment from "moment-timezone";
 import Image from "next/image";
 
 export default function FounderSection() {
