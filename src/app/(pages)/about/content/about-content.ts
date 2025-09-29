@@ -3,7 +3,6 @@
 
 import {
   BookOpen,
-  Globe2,
   Handshake,
   Heart,
   Layers,

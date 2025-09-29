@@ -1,22 +1,14 @@
 import {
   ArrowRight,
   Briefcase,
-  Calendar,
-  CalendarCheck,
   CheckCircle2,
-  Clock,
-  Coins,
   Gift,
-  HandHeart,
   Handshake,
-  Hash,
-  Landmark,
   Megaphone,
   Package,
   Quote,
   ShieldCheck,
   Users,
-  Wrench,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

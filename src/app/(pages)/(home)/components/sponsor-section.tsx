@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { featuredPartner, supporters } from "../../about/content/about-content";
+
 
 export default function SponsorSection() {
   return (

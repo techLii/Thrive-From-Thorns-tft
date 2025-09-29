@@ -1,18 +1,13 @@
-import LogoCarousel from "@/app/components/LogoCarousel";
+
 import {
-  Award,
-  Briefcase,
   Gift,
   Handshake,
   Megaphone,
   Package,
-  Share,
-  Share2,
   Users,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { supporters } from "../about/content/about-content";
 
 export const metadata = {
   title: "Become a Partner | Thrive From Thorns Kenya",
@@ -50,7 +45,7 @@ export default function PartnershipPage() {
               Be the Difference Between Surviving and Thriving
               Partnering with Thrive from Thorns means joining a
               movement that delivers real, measurable transformation.
-              You don't just fund aid—you fund futures.
+              You don&apos;t just fund aid—you fund futures.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mt-4">
               Thrive From Thorns Kenya actively seeks partnerships with
@@ -114,7 +109,7 @@ export default function PartnershipPage() {
               {
                 icon: Handshake,
                 title: "Corporate & CSR Partnerships",
-                text: "Collaborate with us through strategic CSR initiatives that align business goals with community impact, supporting sustainable programs that transform children's lives.",
+                text: "Collaborate with us through strategic CSR initiatives that align business goals with community impact, supporting sustainable programs that transform children’s lives.",
               },
               {
                 icon: Users,
