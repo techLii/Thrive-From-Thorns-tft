@@ -62,8 +62,7 @@ export default function DonatePage() {
               With your financial support, students are empowered to pursue
               their dreams and pave a path toward a stable, secure and
               economically viable future. Please help us by making an online
-              donation today. You can also contact us to make a donation by mail
-              at Thrive From Thorns, P.O.Box 0000, Kisumu Estate. Kenya.
+              donation today. You can also contact us to make a donation through thrivefromthorns@gmail.com
               
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
@@ -146,11 +145,9 @@ export default function DonatePage() {
                   invite you to join us in making a profound difference.
                 </p>
                 <p>
-                  Our mission is simple yet profound: to eradicate educational
-                  disparities and provide a nurturing environment where every
-                  child can thrive. We envision a world where education
-                  empowers, where love conquers fears, and where the smiles of
-                  children illuminate our path.
+                  Our mission is to empower children, youth, and families through 
+                  education, healthcare, economic empowerment, and mentorship that 
+                  restore purpose and transform lives.
                 </p>
               </div>
             </div>
