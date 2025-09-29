@@ -10,12 +10,18 @@ export default function FounderSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Meet Our <span className="text-csag-primary">Chairperson</span>
+            Meet Our <span className="text-csag-primary">Team</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-csag-primary to-csag-accent mx-auto mb-8 rounded-minimal"></div>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
-            The visionary leader who started it all and continues to inspire our
-            mission.
+            Steering Vision. Safeguarding Integrity. Scaling Impact.
+          </p>
+          <br/>
+          <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
+            Our Board is composed of diverse, values-driven professionals with
+            decades of experience in health, education, community development,
+            governance, and finance. Their role is to ensure we operate with
+            accountability, sustainability, and mission alignment at all times.
           </p>
         </div>
 
@@ -49,14 +55,12 @@ export default function FounderSection() {
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
                   Dr. Sylvester Odanga is an expert in education and youth empowerment,
-                   he provides visionary leadership and strategic guidance to 
-                   ensure our programs remain innovative and scalable.
+                  he provides visionary leadership and strategic guidance to
+                  ensure our programs remain innovative and scalable.
                 </p>
-
-                
               </div>
 
-             
+
             </div>
           </div>
         </div>

@@ -151,7 +151,7 @@ function Nav() {
           title="Thrive From Thorns Kenya"
         >
           <Image
-            src="/images/csag-logo-no-bg.png"
+            src="/images/csag-icon-logo-no-bg.png"
             alt="Thrive From Thorns Kenya logo"
             fill
             priority
@@ -198,7 +198,7 @@ function Nav() {
               </div>
             )}
           </div>
-          {NavLink("/our-projects", "Our Projects", currentPath)}
+          
           <div className="relative" ref={involvedRef}>
             {NavLink(
               "/get-involved",
@@ -234,7 +234,7 @@ function Nav() {
               </div>
             )}
           </div>
-          {NavLink("/blog", "Blog & News", currentPath)}
+          
         </nav>
         <div className="flex items-center space-x-4">
           <Link
@@ -341,18 +341,7 @@ function Nav() {
               </div>
             )}
 
-            <Link
-              href="/our-projects"
-              className={cn(
-                "block rounded-minimal px-4 py-3 text-base font-medium",
-                currentPath.startsWith("/our-projects")
-                  ? "bg-gray-50 text-csag-primary"
-                  : "hover:bg-gray-50"
-              )}
-              onClick={() => setIsMobileOpen(false)}
-            >
-              Our Projects
-            </Link>
+            
 
             {/* Get Involved (expandable) */}
             <button
@@ -403,18 +392,7 @@ function Nav() {
               </div>
             )}
 
-            <Link
-              href="/blog"
-              className={cn(
-                "block rounded-minimal px-4 py-3 text-base font-medium",
-                currentPath.startsWith("/blog")
-                  ? "bg-gray-50 text-csag-primary"
-                  : "hover:bg-gray-50"
-              )}
-              onClick={() => setIsMobileOpen(false)}
-            >
-              Blog & News
-            </Link>
+           
 
             <div className="pt-2 pb-3 px-2">
               <Link

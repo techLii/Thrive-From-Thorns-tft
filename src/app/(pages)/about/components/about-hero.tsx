@@ -24,12 +24,13 @@ export default function AboutHero() {
         <div className="max-w-6xl mx-auto text-white">
           <div className="animate-fade-in">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              ABOUT <span className="text-csag-accent-light">TFT</span>
+              Who We <span className="text-csag-accent-light">Are</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl leading-relaxed opacity-95">
-              Empowering underprivileged children in rural Kenya through access
-              to quality education and creating brighter futures for generations
-              to come.
+              Thrive from Thorns is a registered nonprofit under the Kenya Companies Act, 
+              2015. We address the root causes of poverty, family breakdown, harmful cultural 
+              practices, poor education, violence, youth unemployment and  holistic mentorship.  
+              Through a holistic, trauma-informed approach, we empower people to not just survive—but thrive.
             </p>
             <div className="flex flex-wrap gap-6 animate-slide-up">
               <Link

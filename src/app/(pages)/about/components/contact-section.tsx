@@ -50,7 +50,7 @@ export default function ContactSection() {
           {/* Contact Information */}
           <div className="animate-slide-up">
             <h3 className="text-3xl font-bold text-gray-900 mb-8">
-              Contact <span className="text-csag-accent">Information</span>
+              Let’s build something beautiful from brokenness <span className="text-csag-accent">—together.</span>
             </h3>
 
             <div className="space-y-8">
@@ -63,8 +63,7 @@ export default function ContactSection() {
                     Our Address
                   </h4>
                   <p className="text-gray-600 leading-relaxed mb-4 text-sm">
-                    Thrive From Thorns, P.O. Box TN 1661, Teshie-Nungua
-                    Estate, Kisumu, Kenya.
+                    Thrive From Thorns, Nairobi Kenya
                   </p>
                   <div
                     className="relative w-full overflow-hidden rounded-minimal border border-gray-200 bg-gray-100"
@@ -119,10 +118,10 @@ export default function ContactSection() {
                   <h4 className="font-semibold text-gray-900 mb-2">Call Us</h4>
                   <p className="text-gray-600">
                     <a
-                      href="tel:+233267702211"
+                      href="tel:+254123456"
                       className="hover:text-csag-primary transition-colors"
                     >
-                      +254 26 770 2211
+                      +2541234567
                     </a>
                   </p>
                 </div>

@@ -3,7 +3,7 @@ import AboutSection from "./components/about-section";
 import HeroSection from "./components/hero-section";
 import MissionSection from "./components/mission-section";
 import OurImpact from "./components/our-impact";
-import OurProjectSection from "./components/our-projects-section";
+
 import PartnerBanner from "./components/partner-banner";
 import SponsorSection from "./components/sponsor-section";
 
@@ -67,9 +67,7 @@ function Home() {
       </div>
 
       {/* Our Work */}
-      <div id="work" aria-labelledby="work-heading">
-        <OurProjectSection />
-      </div>
+    
 
       {/* Sponsors */}
       <div id="sponsors" aria-labelledby="sponsors-heading">

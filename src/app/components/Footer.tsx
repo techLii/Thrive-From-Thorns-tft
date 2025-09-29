@@ -54,7 +54,7 @@ export default function Footer() {
                 title="Thrive From Thorns"
               >
                 <Image
-                  src="/images/csag-logo-no-bg.png"
+                  src="/images/csag-icon-logo-no-bg.png"
                   alt="Thrive From Thorns logo"
                   fill
                   className="object-contain"
@@ -64,9 +64,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Thrive From Thorns is a registered National Non-Profit
-              Organization (Reg. No.02115) and a company limited by guarantee
-              under the Kenya Companies Act, 2015. (Reg. No. fdgsdg). Our Tax ID is No. CGVHJMGG2
+              Thrive From Thorns CLG | Registered under Kenya Companies Act (2015)
+              Audited annually. 100% of funds go directly to mission work.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -178,7 +177,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-csag-primary mt-1" />
                 <span className="text-gray-300 leading-relaxed">
-                  P.O. Box 0000, Nairobi, Kenya
+                  Nairobi, Kenya
                 </span>
               </li>
               <li className="flex items-start">
@@ -187,7 +186,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-3 text-csag-primary mt-1" />
-                <span className="text-gray-300">+254 000 000 000</span>
+                <span className="text-gray-300"></span>
               </li>
             </ul>
           </div>

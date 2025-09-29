@@ -10,12 +10,14 @@ export default function ApproachSection() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-12 animate-fade-in max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="text-csag-accent-light">Approach</span>
+            Our <span className="text-csag-accent-light">Model</span>
           </h2>
           <div className="w-24 h-1 bg-csag-accent-light mx-auto mb-8 rounded-minimal" />
           <p className="text-lg opacity-95">
-            Focus on accessible education, active community involvement, and
-            customized learning experiences to empower rural children.
+            We Don’t Just Run Programs. We Build Pathways to Purpose.
+            Our work is based on a five-pillar model that addresses the full
+            spectrum of vulnerability—restoring broken systems, building
+            resilient individuals, and strengthening families and communities.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

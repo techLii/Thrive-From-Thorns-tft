@@ -188,65 +188,30 @@ export default function DonatePage() {
             {[
               {
                 icon: Megaphone,
-                title: "Online Funding Programs",
-                text: "Participate in our online crowdfunding campaigns to support our programs and initiatives that align with your missions and values.",
+                title: "Donate",
+                text: "One-time or monthly giving",
               },
               {
                 icon: Gift,
-                title: "Direct Donations",
-                text: "Make a one-time or recurring donation through our secure online portal.",
+                title: "Volunteer",
+                text: "Local or remote support",
               },
               {
                 icon: Package,
-                title: "In-Kind Donations",
-                text: "Donate essential items, such as books and pencils supplies, to support our programs.",
+                title: "Mentor",
+                text: "Empower a future leader",
               },
               {
                 icon: Users,
-                title: "Employee Engagement",
-                text: "Encourage your employees to participate through payroll deductions or volunteer opportunities.",
+                title: "Fundraise",
+                text: "Mobilize your network",
               },
               {
                 icon: Briefcase,
-                title: "Corporate Partnerships",
-                text: "Establish strategic partnerships with businesses that share our mission and values.",
+                title: "Collaborate",
+                text: "Partner your organization or church",
               },
-              {
-                icon: Calendar,
-                title: "Community Events",
-                text: "Attend fundraising events and connect with like-minded supporters.",
-              },
-              {
-                icon: HandHeart,
-                title: "Volunteerism",
-                text: "Lend your time and skills to contribute directly to our mission.",
-              },
-              {
-                icon: Gift,
-                title: "One-Time Gifts",
-                text: "Make a single contribution of any amount to fund projects or operations.",
-              },
-              {
-                icon: Coins,
-                title: "Matching Gifts",
-                text: "Double the impact of your donation when your employer matches your contribution.",
-              },
-              {
-                icon: Clock,
-                title: "One-Time Volunteering",
-                text: "Engage in short-term projects or events that fit your schedule.",
-              },
-              {
-                icon: CalendarCheck,
-                title: "Long-Term Volunteering",
-                text: "Commit to longer-term mentoring or community outreach initiatives.",
-              },
-
-              {
-                icon: Wrench,
-                title: "Skill-Based Volunteering",
-                text: "Offer specialized skills or expertise in areas like education or project management.",
-              },
+              
             ].map((item, i) => {
               const Icon = item.icon;
               return (
@@ -349,68 +314,7 @@ export default function DonatePage() {
           </div>
         </section>
 
-        {/* Bank transfer details */}
-        <section className="border border-gray-200 rounded-minimal bg-white p-6 md:p-8 animate-slide-up">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-csag-accent/10 text-csag-accent">
-              <Landmark className="h-5 w-5" />
-            </span>
-            <h3 className="text-2xl font-bold text-gray-900">
-              Bank Transfer Details
-            </h3>
-          </div>
-          <p className="text-gray-700 mb-6">
-            Thank you for supporting us and giving change a chance! If you would
-            like to donate to us via bank transfer, please use our details
-            below. We accept transfers internationally.
-          </p>
-          <div className="grid md:grid-cols-2 gap-6 text-gray-800">
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <Landmark className="h-5 w-5 mt-0.5 text-csag-primary" />
-                <p>
-                  <span className="font-semibold">Bank Name:</span> Guaranty
-                  Trust Bank (Kenya) Limited
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <Users className="h-5 w-5 mt-0.5 text-csag-primary" />
-                <p>
-                  <span className="font-semibold">Account Name:</span> Thrive From Thorns
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <Hash className="h-5 w-5 mt-0.5 text-csag-primary" />
-                <p>
-                  <span className="font-semibold">Account Number:</span>{" "}
-                  <span className="font-mono tracking-wide">3208002015161</span>{" "}
-                  (DOLLAR)
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <Hash className="h-5 w-5 mt-0.5 text-csag-primary" />
-                <p>
-                  <span className="font-semibold">Account Number:</span>{" "}
-                  <span className="font-mono tracking-wide">3208004031047</span>{" "}
-                  (EURO)
-                </p>
-              </div>
-            </div>
-            
-          </div>
-          <p className="text-gray-700 mt-6">
-            When making a donation via bank transfer please email us at
-            <Link
-              href="mailto:thrivefromthorns@gmail.com"
-              className="font-semibold underline underline-offset-4 decoration-white/0 hover:decoration-csag-primary ml-1"
-            >
-              thrivefromthorns@gmail.com
-            </Link>
-            <span className="ml-1">
-              with your contact details so that we can acknowledge receipt.
-            </span>
-          </p>
-        </section>
+        
       </div>
     </section>
   );

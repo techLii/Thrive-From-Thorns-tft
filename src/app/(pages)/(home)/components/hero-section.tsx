@@ -29,22 +29,23 @@ export default function HeroSection() {
               WE LAUNCH LEGACIES
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl leading-relaxed opacity-95">
-              Empowering underprivileged children in rural Kenya through access
-              to quality education and creating brighter futures for generations
-              to come.
+              Thrive from Thorns is an African-rooted, purpose-driven nonprofit restoring 
+              dignity, strength, and purpose to vulnerable children, youth, and families 
+              across Kenya—and beyond. We go beyond aid to deliver lasting wholeness through 
+              education, health, economic empowerment, social and spiritual mentorship.
             </p>
             <div className="flex flex-wrap gap-6 animate-slide-up">
               <Link
-                href="/donate"
+                href="/partnership"
                 className="bg-csag-accent-dark hover:bg-csag-accent-darker text-white font-bold py-4 px-10 rounded-minimal transition-all duration-300 hover:translate-y-[-2px]"
               >
-                DONATE NOW
+                PARTNER WITH US
               </Link>
               <Link
                 href="/about"
                 className="bg-transparent hover:bg-white/10 text-white border-2 border-white font-bold py-4 px-10 rounded-minimal transition-all duration-300 hover:translate-y-[-2px]"
               >
-                LEARN MORE
+                EXPLORE OUR MODEL
               </Link>
             </div>
           </div>

@@ -1,7 +1,7 @@
 export const TEAM_MEMBERS = [
   {
     id: "1",
-    name: "Moses Sadia",
+    name: "Moses Sadia |  Board Member",
     designation: "Clinical Health Practitioner & Public Health Expert",
     socialMedia: "https://www.linkedin.com/in/",
     imageUrl: "/images/volunteers/sadia-moses.jpg",
@@ -11,7 +11,7 @@ export const TEAM_MEMBERS = [
   
   {
     id: "3",
-    name: "CPA Sharon Omondi – Board Treasurer",
+    name: "CPA Sharon Omondi | Board Treasurer",
     designation: "Finance Administrator | Certified Public Accountant",
     socialMedia: "https://www.linkedin.com/in/",
     imageUrl: "/images/volunteers/sharon-omondi.jpg",
@@ -20,7 +20,7 @@ export const TEAM_MEMBERS = [
   },
   {
     id: "4",
-    name: "Duncan Ouma Okuru – Board Member",
+    name: "Duncan Ouma Okuru | Board Member",
     designation: "Economist & Entrepreneurship Expert",
     socialMedia: "https://www.linkedin.com/in/",
     imageUrl: "/images/volunteers/duncan-okuro.jpg",
@@ -29,7 +29,7 @@ export const TEAM_MEMBERS = [
   },
   {
     id: "5",
-    name: "Rachel Onyango – Country Director & Board Member",
+    name: "Rachel Onyango | Country Director & Board Member",
     designation: "Sociologist, Counselor & Community Development Specialist",
     socialMedia: "https://www.linkedin.com/in/",
     imageUrl: "/images/volunteers/rachael-onyango.png",

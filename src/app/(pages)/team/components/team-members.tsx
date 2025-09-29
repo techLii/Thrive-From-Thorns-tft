@@ -16,7 +16,7 @@ export default function TeamMembers() {
         {/* Heading */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Our <span className="text-csag-primary">Core Team</span>
+            Our <span className="text-csag-primary">Board Members</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-csag-primary to-csag-accent mx-auto rounded-minimal" />
           <p className="mt-6 text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">

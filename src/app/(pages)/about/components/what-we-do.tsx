@@ -28,14 +28,11 @@ export default function WhatWeDoSection() {
             id="programmes-heading"
             className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
           >
-            What We <span className="text-csag-primary">Do</span>
+            Strategic  <span className="text-csag-primary">Priorities</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-csag-primary to-csag-accent mx-auto mb-8 rounded-minimal" />
           <p className="text-gray-600 text-lg">
-            Our programmes strengthen schools, empower learners, and create
-            inspiring places to learn by improving facilities, providing books
-            and desks, supporting girls&apos; reading clubs, and expanding
-            access to technology and teacher support in rural areas.
+            How We Build Lasting Impact
           </p>
         </div>
 

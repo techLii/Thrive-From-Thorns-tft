@@ -47,11 +47,10 @@ export default function PartnershipPage() {
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-csag-primary to-csag-accent mb-8 rounded-minimal" />
             <p className="text-gray-700 text-lg leading-relaxed">
-              The bonds we&apos;ve established with organizations and
-              individuals hold immense significance to us. These partners share
-              our vision and values, uniting with us to enhance the educational
-              prospects of young Kenyans, ultimately contributing to a more
-              skilled workforce and a fortified nation.
+              Be the Difference Between Surviving and Thriving
+              Partnering with Thrive from Thorns means joining a
+              movement that delivers real, measurable transformation.
+              You don't just fund aid—you fund futures.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mt-4">
               Thrive From Thorns Kenya actively seeks partnerships with
@@ -94,13 +93,15 @@ export default function PartnershipPage() {
               Why Partner with Us?
             </h2>
           </div>
-          <p className="text-gray-700 text-lg leading-relaxed max-w-4xl">
-            We believe every child deserves an equal chance at a better future.
-            Our educational programs provide vital learning support during
-            critical developmental years, empowering children to dream bigger
-            and reshape their lives. By partnering with us, you play a direct
-            role in transforming these young lives.
-          </p>
+
+          <ul className="text-gray-700 text-lg leading-relaxed max-w-4xl list-disc pl-6">
+            <li>100% of resources go to mission (no profits to members)</li>
+            <li>Transparent and audited financial management</li>
+            <li>Real-time impact tracking and updates</li>
+            <li>Ethical governance and local leadership</li>
+            <li>Long-term vision with short-term wins</li>
+          </ul>
+
         </div>
 
         {/* How to partner */}
@@ -112,49 +113,31 @@ export default function PartnershipPage() {
             {[
               {
                 icon: Handshake,
-                title: "Corporate Partnerships",
-                text: "Build long-term, mutually beneficial relationships that support our programs and initiatives and create sustained impact for children.",
+                title: "Corporate & CSR Partnerships",
+                text: "Collaborate with us through strategic CSR initiatives that align business goals with community impact, supporting sustainable programs that transform children's lives.",
               },
               {
                 icon: Users,
-                title: "Volunteer Programs",
-                text: "Encourage employee participation in our initiatives, provide valuable human resources, and foster a culture of community engagement within your organization.",
+                title: "Institutional & NGO Collaborations",
+                text: "Work together with like-minded organizations to share resources, co-design programs, and scale impact through joint initiatives and knowledge exchange.",
               },
               {
                 icon: Gift,
-                title: "Donations",
-                text: "Provide direct financial support to expand our reach and improve services for children. One-time gifts or monthly donations are welcome, no amount is too small.",
+                title: "Legacy Giving & Donor Circles",
+                text: "Create a lasting impact by joining donor circles or setting up legacy gifts that ensure continued support for children’s programs for generations to come.",
               },
               {
                 icon: Package,
-                title: "In-Kind Donations",
-                text: "Contribute goods or professional services that meet operational needs, such as equipment, supplies, or pro bono expert work.",
+                title: "Advisory, Mentorship, and Volunteer Expertises",
+                text: "Offer your professional skills, mentorship, or strategic guidance to strengthen our operations and empower communities through expert volunteer contributions.",
               },
               {
                 icon: Megaphone,
-                title: "Advocacy Partnerships",
-                text: "Collaborate on advocacy campaigns to raise awareness about the challenges rural children face and promote programs that support their development.",
+                title: "Government & Policy Partnerships",
+                text: "Partner with government bodies to influence policy, co-develop impactful programs, and advocate for systemic changes that benefit rural children.",
               },
-              {
-                icon: Award,
-                title: "Sponsorship",
-                text: "Sponsor specific programs, events, or initiatives to gain prominent recognition and align your brand with our mission.",
-              },
-              {
-                icon: Share2,
-                title: "Co-branded Fundraising Campaigns",
-                text: "Partner on joint fundraising efforts that combine reach and resources to maximize impact and donor engagement.",
-              },
-              {
-                icon: Share,
-                title: "Sponsored Social Media Initiatives",
-                text: "Team up on social media campaigns to raise awareness, engage audiences, and drive support for our programs.",
-              },
-              {
-                icon: Briefcase,
-                title: "Expertise & Networks",
-                text: "Share professional skills and connect us with your network of specialists and industry leaders to boost our operational capacity and program effectiveness.",
-              },
+
+
             ].map((item, i) => {
               const Icon = item.icon;
               return (
@@ -180,7 +163,8 @@ export default function PartnershipPage() {
           </div>
         </div>
 
-        {/* Partners logos - horizontal carousel */}
+        {/* Partners logos - horizontal carousel
+        
         <div id="partners" className="mb-8">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
             Meet Our Amazing Partners
@@ -194,6 +178,9 @@ export default function PartnershipPage() {
             <LogoCarousel items={supporters} speed="normal" />
           </div>
         </div>
+        
+        */}
+        
 
         {/* CTA */}
         <div className="mt-16 text-center">

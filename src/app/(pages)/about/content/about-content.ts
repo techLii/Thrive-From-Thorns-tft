@@ -25,111 +25,109 @@ export const vision =
 
 export const goals: IconEntry[] = [
   {
-    title: "Access to Quality Education",
-    text: "Remove barriers so rural children attend well-resourced schools that support learning.",
+    title: "Integrity",
+    text: "We uphold the highest ethical standards.",
     icon: School,
   },
   {
-    title: "Comprehensive Learning Resources",
-    text: "Create and distribute relevant books, digital tools and hands-on kits; train educators to use them.",
+    title: "Compassion ",
+    text: "We serve with empathy and dignity.",
     icon: BookOpen,
   },
   {
-    title: "Empower Local Educators",
-    text: "Provide practical training in teaching methods, classroom management and responsible tech use.",
+    title: "Innovation",
+    text: "We build bold, creative, and sustainable solutions.",
     icon: Users,
   },
   {
-    title: "Community Engagement",
-    text: "Mobilize parents, leaders and mentors through awareness sessions and after-school support.",
+    title: "Collaboration",
+    text: "We walk with communities, not ahead of them.",
     icon: Heart,
   },
   {
-    title: "Collaborative Partnerships",
-    text: "Work with government, business and nonprofits to pool resources and scale proven programs.",
+    title: "Excellence ",
+    text: "We pursue quality, results, and measurable impact.",
     icon: Handshake,
-  },
-  {
-    title: "Volunteers Connection",
-    text: "Connect local & international volunteers for mentoring, tutoring and workshops that lift learners.",
-    icon: Globe2,
   },
 ];
 
 export const approachPillars: IconEntry[] = [
   {
-    title: "Accessible Education",
-    text: "Breaking down barriers in remote areas with flexible learning models to ensure every child can attend school.",
+    title: "Education & Skills Development",
+    text: "From classrooms to vocational training centers, we equip youth with tools for lifelong success and opportunity.",
     icon: Layers,
   },
   {
-    title: "Community Engagement",
-    text: "Involving families and local communities to support children's learning and create a nurturing environment.",
+    title: "Health & Wellness",
+    text: "We deliver trauma healing, clinical services, rescue programs, and psychosocial support for total well-being.",
     icon: Users,
   },
   {
-    title: "Tailored Learning",
-    text: "Training local educators and customizing education to meet the unique needs of rural children for better outcomes.",
+    title: "Leadership & Empowerment",
+    text: "We mentor young leaders and build life skills to spark bold, values-driven leadership from the inside out.",
+    icon: Heart,
+  },
+  {
+    title: "Family & Community Strengthening",
+    text: "We restore homes and communities through parenting training, mental health services, and family-centered interventions.",
+    icon: Heart,
+  },
+  {
+    title: "Economic Empowerment",
+    text: "We create access to entrepreneurship, vocational skill-building, and sustainable income-generating opportunities.",
     icon: Heart,
   },
 ];
 
 export const reasons = [
   {
-    title: "Empowerment",
-    text: "Knowledge builds informed choices, employability and independence.",
+    title: "Integrity & Accountability",
+    text: "We uphold the highest ethical standards, ensuring that all actions and resources are managed responsibly, transparently, and in the best interest of the communities we serve.",
   },
   {
-    title: "Economic Development",
-    text: "Skilled learners adopt better farming and entrepreneurship practices.",
+    title: "Local Knowledge, Global Standards",
+    text: "We combine deep local insights with internationally recognized best practices to deliver solutions that are both culturally relevant and globally competitive.",
   },
   {
-    title: "Health Improvement",
-    text: "Education improves sanitation, nutrition and disease prevention habits.",
+    title: "Transparency in Action",
+    text: "We operate with openness and clarity, providing stakeholders with real-time information, measurable results, and clear reporting on our programs and impact.",
   },
   {
-    title: "Social Change",
-    text: "Critical thinking challenges harmful norms and enables active citizenship.",
+    title: "Inclusive & Participatory Leadership",
+    text: "We foster leadership that values every voice, encourages shared decision-making, and ensures communities are actively involved in shaping their future.",
   },
-  {
-    title: "Gender Equality",
-    text: "Educated girls delay marriage, expand career paths and uplift families.",
-  },
-  {
-    title: "Cultural Preservation",
-    text: "Inclusive curricula keep local languages and heritage alive.",
-  },
+
 ];
 
 // Programs / What We Do
 export const programmes: IconEntry[] = [
   {
-    title: "Supporting Schools Programs",
-    text: "We provide assistance to schools to enhance their educational resources and infrastructure, ensuring that students have access to a quality learning environment.",
+    title: "Implement Evidence-Based, Scalable Programs",
+    text: "We design and deliver programs grounded in data and proven best practices, ensuring they can be adapted and scaled to create lasting impact in diverse communities.",
   },
   {
-    title: "Reading Club Programs",
-    text: "Our initiative focuses on encouraging young girls to develop a love for reading by creating a supportive community that fosters literacy and confidence.",
+    title: "Establish Purpose Centers (schools, health, rescue & vocational facilities)",
+    text: "We set up multi-functional centers that provide quality education, healthcare, rescue services, and vocational training, creating safe spaces where children and communities can thrive.",
   },
   {
-    title: "School Desks Project",
-    text: "We are committed to enabling a better learning environment by providing students with proper school desks, ensuring they have a comfortable and conducive space for studying.",
+    title: "Deploy a Replicable Mentorship & Life-Skills Curriculum",
+    text: "We develop and implement structured mentorship and life-skills programs that can be easily replicated, equipping young people with guidance, confidence, and essential skills for success.",
   },
   {
-    title: "Water & Sanitation Project",
-    text: "We prioritize clean water and sanitation facilities in schools, promoting health and hygiene among students and creating a safer school environment.",
+    title: "Strengthen Strategic Partnerships",
+    text: "We collaborate with governments, organizations, and communities to build strong alliances that amplify our collective impact and drive sustainable change.",
   },
   {
-    title: "Book Distribution Program",
-    text: "We spread the gift of knowledge by distributing books to schools and communities, ensuring that every student has access to reading materials that spark their imagination and learning.",
+    title: "Empower Communities Through Self-Led Restoration Tools",
+    text: "We equip communities with practical tools, training, and resources that enable them to lead their own development, restore dignity, and sustain progress independently.",
   },
   {
-    title: "Building Schools and Computer Labs Project",
-    text: "We invest in building new schools and equipping them with computer labs, helping students gain essential skills for the modern world.",
+    title: "Scale Our Model Across Africa and beyond",
+    text: "We expand our proven approach to new regions, adapting to local contexts while maintaining core impact strategies to reach more children and communities across the continent.",
   },
   {
-    title: "Renovation of School & Library Project",
-    text: "We focus on renovating school libraries to create inviting, resource-rich spaces that encourage students to explore and develop their love for reading and learning.",
+    title: "Mobilize Long-Term Resources for Sustainability",
+    text: "We secure diversified, long-term funding and partnerships to ensure programs are not only launched but sustained and expanded for enduring community impact.",
   },
 ];
 

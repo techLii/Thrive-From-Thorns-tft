@@ -22,19 +22,12 @@ export default function WhatIsCSAG() {
               Our <span className="text-csag-accent">Story</span>
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed text-lg">
-              Since 2025, <strong>Thrive From Thorns (TFT)</strong> has
-              been on a mission to bring hope and education to children in rural
-              Kenya. We believe every child, no matter their background,
-              deserves a chance to learn and grow. Through our work, we’ve seen
-              how quality education opens doors and helps children reach their
-              potential.
-            </p>
-
-            <p>
+            
               Across Africa, millions live trapped in poverty, trauma, and broken systems. 
               But we believe every thorn—every pain—can become the root of transformation.
               We exist to turn generational wounds into generational strength.
             </p>
+
           </div>
           <div
             className="order-1 lg:order-2 animate-slide-up"

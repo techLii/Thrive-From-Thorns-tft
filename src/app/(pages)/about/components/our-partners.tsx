@@ -7,55 +7,12 @@ export default function OurPartners() {
   return (
     <section className="py-24 px-4 md:px-8 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto">
-        {/* Heading */}
-        <header className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Our <span className="text-csag-primary">Partners</span>
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-csag-primary to-csag-accent mx-auto mb-8 rounded-minimal" />
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
-            Collaboration powers our impact. These partnerships help us expand
-            learning access, resources and community support.
-          </p>
-        </header>
+        
 
-        {/* Featured Partner */}
-        <div className="relative overflow-hidden bg-white border border-gray-100 rounded-lg p-8 md:p-10 mb-20 animate-slide-up flex flex-col lg:flex-row gap-10">
-          <div className="flex-shrink-0 flex items-center justify-center">
-            <div className="p-6 bg-gray-50 rounded-minimal border border-gray-100">
-              <Image
-                src={featuredPartner.logo}
-                alt={`${featuredPartner.name} logo`}
-                width={260}
-                height={140}
-                className="w-auto h-32 object-contain"
-                priority
-                sizes="(max-width: 768px) 50vw, 260px"
-                quality={70}
-              />
-            </div>
-          </div>
-          <div className="flex-1">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              Government of{" "}
-              <span className="text-csag-primary">
-                {featuredPartner.highlight}
-              </span>
-            </h3>
-            <p className="text-gray-600 leading-relaxed mb-6 text-lg">
-              {featuredPartner.description}
-            </p>
-            {/* <Link
-              href={featuredPartner.link}
-              className="inline-flex items-center text-csag-primary font-semibold hover:text-csag-primary-dark transition-colors group"
-            >
-              Learn more about this partnership
-              <ArrowRight className="h-5 w-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Link> */}
-          </div>
-        </div>
+        
 
-        {/* Supporter Logos */}
+        {/* Supporter Logos 
+        
         <div className="animate-fade-in" style={{ animationDelay: "0.15s" }}>
           <h3 className="text-2xl font-bold text-gray-900 mb-10 flex items-center justify-center gap-2">
             <span className="text-csag-primary">Supporting</span> Organizations
@@ -85,6 +42,9 @@ export default function OurPartners() {
             ))}
           </div>
         </div>
+        
+        */}
+        
 
         {/* CTA Banner */}
         <div
