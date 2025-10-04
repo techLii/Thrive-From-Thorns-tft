@@ -6,7 +6,7 @@ export default function AboutHero() {
     <div className="relative h-[500px] md:h-[600px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/photoshoot/reading-book-in-library.webp"
+        src="/images/photoshoot/our-approach.jpg"
         alt="Children reading in library"
         className="w-full h-full object-cover"
         width={1920}

@@ -6,7 +6,7 @@ export default function TeamHero() {
     <div className="relative h-[500px] md:h-[600px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/photoshoot/teachers-teaching-in-class.webp"
+        src="/images/photoshoot/meet-our-team.jpg"
         alt="Teachers teaching in class"
         className="w-full h-full object-cover"
         width={1920}

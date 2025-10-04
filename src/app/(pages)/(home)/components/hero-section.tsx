@@ -6,7 +6,7 @@ export default function HeroSection() {
     <div className="relative h-[600px] md:h-[700px] lg:h-[800px] overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/photoshoot/new-school-building-nz-fund.webp"
+        src="/images/photoshoot/homepage-hero.jpg"
         alt="New school building funded by New Zealand Embassy Fund"
         className="w-full h-full object-cover"
         width={1920}

@@ -19,7 +19,7 @@ export const metadata = {
     "Volunteer with TFT to support education, health, and community development in rural kenya.",
   alternates: { canonical: "/volunteer" },
   openGraph: {
-    title: "Volunteer with TFT",
+    title: "Volunteer with TFT",                                              
     description:
       "Share your skills to improve education and wellbeing in rural Kenya.",
     url: "/volunteer",
@@ -90,7 +90,7 @@ export default function VolunteerPage() {
       <div className="relative">
         <div className="absolute inset-0 overflow-hidden">
           <Image
-            src="/images/photoshoot/everyone-hands-up.webp"
+            src="/images/photoshoot/meet-our-team.jpg"
             alt="Children in rural Kenya raising their hands"
             fill
             priority

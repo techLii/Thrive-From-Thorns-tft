@@ -102,7 +102,7 @@ export default function DonatePage() {
           </div>
           <div className="relative aspect-[16/10] rounded-minimal overflow-hidden bg-gray-100">
             <Image
-              src="/images/photoshoot/small-kid-looking-straight-into-eyes.webp"
+              src="/images/photoshoot/donate.jpg"
               alt="Children learning in Kenya"
               fill
               className="object-cover"
