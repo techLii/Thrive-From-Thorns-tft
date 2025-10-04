@@ -16,7 +16,7 @@ export default function FounderSection() {
           <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
             Steering Vision. Safeguarding Integrity. Scaling Impact.
           </p>
-          <br/>
+          <br />
           <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
             Our Board is composed of diverse, values-driven professionals with
             decades of experience in health, education, community development,
@@ -54,9 +54,36 @@ export default function FounderSection() {
 
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Dr. Sylvester Odanga is an expert in education and youth empowerment,
-                  he provides visionary leadership and strategic guidance to
-                  ensure our programs remain innovative and scalable.
+                  Dr. Sylvester Odanga is a seasoned educator, counselor, and leadership mentor 
+                  with over three decades of experience in education, faith-based leadership, and 
+                  community development. As Board Chairperson at Thrive from Thrones, he provides 
+                  strategic oversight, ethical governance, and value-based leadership to guide the 
+                  organization’s mission of empowering communities through mental resilience, 
+                  mentorship, and grassroots capacity building.
+
+                  </p>
+                  <p>
+                  Dr. Odanga is the Founder and Director of Dexterity Lifeskills Institute, a 
+                  transformative learning organization equipping young people with life skills 
+                  that complement formal education. He also serves as Senior Pastor at Shalom 
+                  Logos Church in Kisumu and a Lecturer in Educational Psychology at the University 
+                  of Kabianga, integrating academic, spiritual, and psychosocial perspectives in 
+                  his mentorship of youth and emerging leaders.
+                  </p>
+                  <p>
+                  He holds a PhD in Educational Psychology, a Master’s in Guidance and Counselling, 
+                  and is a certified Trainer of Trainers in Counseling. His career began in secondary 
+                  education, where he taught from 1991 to 2019, nurturing thousands of students before 
+                  transitioning into higher education, pastoral ministry, and organizational leadership.
+                  Dr. Odanga’s work is grounded in values of service, integrity, and holistic transformation. 
+                  He has trained hundreds of educators, counselors, and community leaders in emotional wellness, 
+                  ethical leadership, and life skills. His contributions have shaped faith communities, schools, 
+                  and organizations across western Kenya.
+                </p>
+                <p>
+                  As Board Chairperson of Thrive from Thrones, Dr. Odanga brings deep experience in human 
+                  development, strategic thinking, and community engagement—anchoring the organization’s 
+                  vision with wisdom, compassion, and a passion for nurturing resilient, empowered leaders.
                 </p>
               </div>
 
