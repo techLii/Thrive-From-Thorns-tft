@@ -42,9 +42,9 @@ export default function FounderSection() {
             <div className="lg:w-2/3 p-8 lg:p-12">
               <div className="mb-6">
                 <h3 className="text-3xl font-bold text-gray-900 mb-2">
-                  Mr.{" "}
+                  Dr.{" "}
                   <span className="text-csag-accent">
-                    Dr. Sylvester Odanga
+                    Sylvester Odanga
                   </span>
                 </h3>
                 <p className="text-xl text-csag-primary font-semibold">
