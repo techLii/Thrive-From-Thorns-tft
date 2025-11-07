@@ -67,6 +67,8 @@ export default function Footer() {
               Thrive From Thorns CLG | Registered under Kenya Companies Act (2015)
               Audited annually. 100% of funds go directly to mission work.
             </p>
+            <p><a href="/files/tft-profile-and-plans.pdf" download> -Download our Profile and Plans -</a></p>
+            <br></br>
             <div className="flex space-x-4">
               <Link
                 target="_blank"

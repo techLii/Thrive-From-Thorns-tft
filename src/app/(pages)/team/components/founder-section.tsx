@@ -48,7 +48,7 @@ export default function FounderSection() {
                   </span>
                 </h3>
                 <p className="text-xl text-csag-primary font-semibold">
-                  Founder & Executive Director
+                  Board Chairperson
                 </p>
               </div>
 
