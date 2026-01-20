@@ -58,14 +58,8 @@ const config: Config = {
         minimal: "4px",
       },
       fontFamily: {
-        sans: [
-          "Inter",
-          "Segoe UI",
-          "Tahoma",
-          "Geneva",
-          "Verdana",
-          "sans-serif",
-        ],
+        sans: ["var(--font-geist-sans)", "Inter", "sans-serif"],
+        mono: ["var(--font-geist-mono)", "monospace"],
       },
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",

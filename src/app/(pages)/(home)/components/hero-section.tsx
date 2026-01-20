@@ -23,27 +23,27 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-20 flex flex-col justify-center px-4 md:px-8 lg:px-16">
         <div className="max-w-6xl mx-auto text-white">
           <div className="animate-fade-in">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight">
               WE DONT JUST
               <span className="block text-csag-accent-light">CHANGE LIVES</span>
               WE LAUNCH LEGACIES
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl leading-relaxed opacity-95">
-              Thrive from Thorns is an African-rooted, purpose-driven nonprofit restoring 
-              dignity, strength, and purpose to vulnerable children, youth, and families 
-              across Kenya—and beyond. We go beyond aid to deliver lasting wholeness through 
+            <p className="text-lg md:text-2xl mb-6 md:mb-8 max-w-3xl leading-relaxed opacity-95">
+              Thrive from Thorns is an African-rooted, purpose-driven nonprofit restoring
+              dignity, strength, and purpose to vulnerable children, youth, and families
+              across Kenya—and beyond. We go beyond aid to deliver lasting wholeness through
               education, health, economic empowerment, social and spiritual mentorship.
             </p>
-            <div className="flex flex-wrap gap-6 animate-slide-up">
+            <div className="flex flex-wrap gap-4 md:gap-6 animate-slide-up">
               <Link
                 href="/partnership"
-                className="bg-csag-accent-dark hover:bg-csag-accent-darker text-white font-bold py-4 px-10 rounded-minimal transition-all duration-300 hover:translate-y-[-2px]"
+                className="bg-csag-accent-dark hover:bg-csag-accent-darker text-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-minimal transition-all duration-300 hover:translate-y-[-2px]"
               >
                 PARTNER WITH US
               </Link>
               <Link
                 href="/about"
-                className="bg-transparent hover:bg-white/10 text-white border-2 border-white font-bold py-4 px-10 rounded-minimal transition-all duration-300 hover:translate-y-[-2px]"
+                className="bg-transparent hover:bg-white/10 text-white border-2 border-white font-bold py-3 px-8 md:py-4 md:px-10 rounded-minimal transition-all duration-300 hover:translate-y-[-2px]"
               >
                 EXPLORE OUR MODEL
               </Link>

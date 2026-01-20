@@ -27,10 +27,9 @@ const gtagInit = `
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   ${GTAG_ID ? `gtag('config', '${GTAG_ID}', { send_page_view: false });` : ""}
-  ${
-    GA_ADS_ID
-      ? `gtag('config', '${GA_ADS_ID}', { send_page_view: false });`
-      : ""
+  ${GA_ADS_ID
+    ? `gtag('config', '${GA_ADS_ID}', { send_page_view: false });`
+    : ""
   }
 `;
 
@@ -110,7 +109,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
         {/* Google Tag Manager (noscript) */}
         {GTM_ID ? (

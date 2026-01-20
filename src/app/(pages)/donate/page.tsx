@@ -41,8 +41,7 @@ export const metadata = {
   },
 };
 
-const GLOBAL_GIVING_URL =
-  "https://www.globalgiving.org/projects/";
+const DIRECT_EMAIL = "thrivefromthorns@gmail.com";
 
 export default function DonatePage() {
   return (
@@ -61,46 +60,29 @@ export default function DonatePage() {
             <p className="text-gray-700 text-base md:text-lg leading-relaxed mt-6">
               With your financial support, students are empowered to pursue
               their dreams and pave a path toward a stable, secure and
-              economically viable future. Please help us by making an online
-              donation today. You can also contact us to make a donation through thrivefromthorns@gmail.com
-              
+              economically viable future.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link
-                href={GLOBAL_GIVING_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <a
+                href={`mailto:${DIRECT_EMAIL}?subject=Donation%20Inquiry`}
                 className="bg-csag-accent-dark hover:bg-csag-accent-darker text-white font-bold py-3 px-6 rounded-minimal transition-all duration-300 hover:translate-y-[-2px] inline-flex items-center"
               >
-                Donate Now
+                Arrange a Direct Donation
                 <ArrowRight className="h-5 w-5 ml-2" />
-              </Link>
-              <Link
-                href={GLOBAL_GIVING_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              </a>
+              <a
+                href={`mailto:${DIRECT_EMAIL}?subject=Monthly%20Giving%20Plan`}
                 className="bg-white border border-gray-200 text-csag-primary font-bold py-3 px-6 rounded-minimal transition-colors hover:border-csag-primary/40 inline-flex items-center"
               >
-                Give a Monthly Donation
+                Discuss Monthly Giving
                 <ArrowRight className="h-5 w-5 ml-2" />
-              </Link>
+              </a>
             </div>
-            <p className="mt-3 text-sm text-gray-600">
-              We partner with
-              <Link
-                href={"https://www.globalgiving.org/"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-csag-primary underline underline-offset-4 decoration-white/0 hover:decoration-csag-primary ml-1"
-              >
-                GlobalGiving
-              </Link>
-              <span className="ml-1">
-                to provide a dedicated, secure donation portal.
-              </span>
+            <p className="mt-4 text-sm text-gray-600 italic">
+              "We value personal connection. Reach out to discuss how your gift can bridge the gap for a child today."
             </p>
           </div>
-          <div className="relative aspect-[16/10] rounded-minimal overflow-hidden bg-gray-100">
+          <div className="relative aspect-[16/10] rounded-minimal overflow-hidden bg-gray-100 shadow-lg rotate-1 hover:rotate-0 transition-transform duration-500">
             <Image
               src="/images/photoshoot/donate.jpg"
               alt="Children learning in Kenya"
@@ -145,8 +127,8 @@ export default function DonatePage() {
                   invite you to join us in making a profound difference.
                 </p>
                 <p>
-                  Our mission is to empower children, youth, and families through 
-                  education, healthcare, economic empowerment, and mentorship that 
+                  Our mission is to empower children, youth, and families through
+                  education, healthcare, economic empowerment, and mentorship that
                   restore purpose and transform lives.
                 </p>
               </div>
@@ -200,7 +182,7 @@ export default function DonatePage() {
                 title: "Collaborate",
                 text: "Partner your organization or church",
               },
-              
+
             ].map((item, i) => {
               const Icon = item.icon;
               return (
@@ -276,24 +258,13 @@ export default function DonatePage() {
               </ul>
               {/* Inline CTA Buttons merged here */}
               <div className="mt-6 flex flex-wrap gap-3">
-                <Link
-                  href={GLOBAL_GIVING_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <a
+                  href={`mailto:${DIRECT_EMAIL}?subject=Donation%20Inquiry`}
                   className="inline-flex items-center bg-white text-csag-primary font-semibold px-6 py-3 rounded-minimal hover:bg-gray-100 transition-all duration-300 hover:translate-y-[-2px]"
                 >
-                  Donate Now
+                  Make an Impact Today
                   <ArrowRight className="h-5 w-5 ml-2" />
-                </Link>
-                <Link
-                  href={GLOBAL_GIVING_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center bg-white/10 text-white font-semibold px-6 py-3 rounded-minimal hover:bg-white/15 transition-all duration-300 hover:translate-y-[-2px]"
-                >
-                  Give Monthly
-                  <ArrowRight className="h-5 w-5 ml-2" />
-                </Link>
+                </a>
               </div>
             </div>
             <div className="absolute inset-0 opacity-10 pointer-events-none">
@@ -303,7 +274,7 @@ export default function DonatePage() {
           </div>
         </section>
 
-        
+
       </div>
     </section>
   );

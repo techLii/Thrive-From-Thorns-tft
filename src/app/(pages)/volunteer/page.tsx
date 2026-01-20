@@ -11,7 +11,6 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { TEAM_MEMBERS } from "../team/content/team-content";
-import VolunteerForm from "./components/volunteer-form";
 
 export const metadata = {
   title: "Volunteer | Thrive From Thorns",
@@ -19,7 +18,7 @@ export const metadata = {
     "Volunteer with TFT to support education, health, and community development in rural kenya.",
   alternates: { canonical: "/volunteer" },
   openGraph: {
-    title: "Volunteer with TFT",                                              
+    title: "Volunteer with TFT",
     description:
       "Share your skills to improve education and wellbeing in rural Kenya.",
     url: "/volunteer",
@@ -112,13 +111,6 @@ export default function VolunteerPage() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="#apply"
-                className="inline-flex items-center bg-csag-accent-dark hover:bg-csag-accent-darker text-white font-semibold px-6 py-3 rounded-minimal transition-transform hover:-translate-y-0.5"
-              >
-                Become a Volunteer
-                <ArrowRight className="h-4 w-4 ml-2" aria-hidden />
-              </a>
-              <a
                 href="#programs"
                 // className="inline-flex items-center bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-minimal backdrop-blur border border-white/20"
                 className="bg-transparent hover:bg-white/10 text-white border-2 border-white font-bold px-6 py-3 rounded-minimal transition-all duration-300 hover:translate-y-[-2px]"
@@ -161,14 +153,6 @@ export default function VolunteerPage() {
                     </h3>
                   </div>
                   <p className="mt-3 text-gray-700 leading-relaxed">{p.body}</p>
-                  <div className="mt-5">
-                    <a
-                      href="#apply"
-                      className="text-csag-primary font-semibold hover:underline"
-                    >
-                      Register now
-                    </a>
-                  </div>
                 </div>
               );
             })}
@@ -235,18 +219,7 @@ export default function VolunteerPage() {
         </div>
       </div>
 
-      {/* Application Form */}
-      <div className="px-4 md:px-8 py-14 " id="apply">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-gray-900 text-center">
-            Volunteer Registration Form
-          </h2>
-          <p className="mt-2 text-center text-gray-600">
-            Takes 3–5 minutes. We’ll get back within 5–7 days.
-          </p>
-          <VolunteerForm programTitles={PROGRAMS.map((p) => p.title)} />
-        </div>
-      </div>
+
 
       {/* FAQs */}
       {/* <div className="px-4 md:px-8 py-16 bg-white ">

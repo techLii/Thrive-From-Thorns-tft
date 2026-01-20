@@ -28,6 +28,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
   .line-clamp-3 {
     display: -webkit-box;
     line-clamp: 3;
@@ -54,6 +55,7 @@
     from {
       transform: translateX(0);
     }
+
     to {
       transform: translateX(-50%);
     }
@@ -61,57 +63,31 @@
 }
 
 /* Prose (markdown) table styling */
+/* Output: Prose table styles only */
 @layer components {
-  /* Unified form controls */
-  .csag-label {
-    @apply block text-sm font-medium text-gray-700 mb-2;
-  }
-  .csag-input {
-    @apply w-full bg-white text-gray-900 placeholder:text-gray-400 border border-gray-300 rounded-minimal px-4 py-3 focus:outline-none focus:ring-2 focus:ring-csag-primary focus:border-transparent transition-all duration-200;
-  }
-  .csag-select {
-    @apply w-full bg-white text-gray-900 border border-gray-300 rounded-minimal px-4 py-3 focus:outline-none focus:ring-2 focus:ring-csag-primary focus:border-transparent transition-all duration-200;
-  }
-  .csag-textarea {
-    @apply w-full bg-white text-gray-900 placeholder:text-gray-400 border border-gray-300 rounded-minimal px-4 py-3 focus:outline-none focus:ring-2 focus:ring-csag-primary focus:border-transparent transition-all duration-200;
-  }
-  .csag-input-dark {
-    @apply w-full bg-gray-700 text-white placeholder:text-gray-400 border border-gray-600 rounded-minimal px-4 py-3 focus:outline-none focus:ring-2 focus:ring-csag-primary focus:border-transparent transition-all duration-200;
-  }
-  .csag-button-primary {
-    @apply inline-flex items-center justify-center bg-csag-primary hover:bg-csag-primary/90 text-white font-semibold px-6 py-3 rounded-minimal transition-all duration-200 hover:translate-y-[-1px] disabled:opacity-60;
-  }
-  .csag-button-accent {
-    /* Orange on dark text ensures >= 4.5:1 contrast */
-    @apply inline-flex items-center justify-center bg-csag-accent hover:bg-csag-accent-dark text-gray-900 font-semibold px-6 py-3 rounded-minimal transition-all duration-200 hover:translate-y-[-1px] disabled:opacity-60;
-  }
   .prose table {
     @apply w-full text-sm border-collapse;
   }
+
   .prose thead th {
     @apply border border-gray-200 bg-gray-50 text-gray-700 font-semibold;
   }
+
   .prose tbody td {
     @apply border border-gray-200;
   }
+
   .prose th,
   .prose td {
     @apply px-3 py-2 align-top;
   }
+
   .prose tbody tr:nth-child(even) {
     @apply bg-gray-50/50;
   }
 }
 
-html,
-body {
-  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: hsl(var(--background));
-  color: hsl(var(--foreground));
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
+
 
 :root:has(.disable-page-scroll) {
   overflow: hidden;
@@ -142,6 +118,11 @@ body {
     --accent-orange-dark: 25 95% 43%;
   }
 
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   body {
     background: hsl(var(--background));
     color: hsl(var(--foreground));
@@ -149,16 +130,19 @@ body {
 
   .ProseMirror ul {
     list-style: disc;
-    padding-left: 1rem; /* Equivalent to pl-4 */
+    padding-left: 1rem;
+    /* Equivalent to pl-4 */
   }
 
   .ProseMirror ol {
     list-style: decimal;
-    padding-left: 1rem; /* Equivalent to pl-4 */
+    padding-left: 1rem;
+    /* Equivalent to pl-4 */
   }
 
   .ProseMirror a {
-    color: #006172; /* Primary blue color */
+    color: #006172;
+    /* Primary blue color */
     text-decoration: none;
     text-decoration-skip-ink: auto;
     text-underline-offset: 2px;
@@ -172,13 +156,5 @@ body {
     text-underline-offset: 2px;
   }
 
-  h2 {
-    font-size: 1.875rem; /* Equivalent to text-3xl */
-    line-height: 2.25rem;
-  }
 
-  h3 {
-    font-size: 1.5rem; /* Equivalent to text-2xl */
-    line-height: 2rem;
-  }
 }

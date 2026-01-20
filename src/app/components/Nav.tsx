@@ -198,7 +198,7 @@ function Nav() {
               </div>
             )}
           </div>
-          
+
           <div className="relative" ref={involvedRef}>
             {NavLink(
               "/get-involved",
@@ -234,7 +234,7 @@ function Nav() {
               </div>
             )}
           </div>
-          
+
         </nav>
         <div className="flex items-center space-x-4">
           <Link
@@ -341,7 +341,7 @@ function Nav() {
               </div>
             )}
 
-            
+
 
             {/* Get Involved (expandable) */}
             <button
@@ -392,7 +392,7 @@ function Nav() {
               </div>
             )}
 
-           
+
 
             <div className="pt-2 pb-3 px-2">
               <Link

@@ -1,6 +1,5 @@
 import AboutHero from "./components/about-hero";
 import ApproachSection from "./components/approach-section";
-import ContactSection from "./components/contact-section";
 import EducationImpact from "./components/education-impact";
 import MissionVisionGoals from "./components/mission-vision-goals";
 import OurImpact from "./components/our-impact";
@@ -61,10 +60,7 @@ export default function AboutPage() {
         <OurPartners />
       </div>
 
-      {/* Contact */}
-      <div id="contact" aria-labelledby="contact-heading">
-        <ContactSection />
-      </div>
+
     </div>
   );
 }
