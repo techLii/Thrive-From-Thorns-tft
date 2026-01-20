@@ -11,7 +11,6 @@ import {
   Users,
 } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 
 export const metadata = {
   title: "Donate | Thrive From Thorns",
@@ -79,7 +78,7 @@ export default function DonatePage() {
               </a>
             </div>
             <p className="mt-4 text-sm text-gray-600 italic">
-              "We value personal connection. Reach out to discuss how your gift can bridge the gap for a child today."
+              &quot;We value personal connection. Reach out to discuss how your gift can bridge the gap for a child today.&quot;
             </p>
           </div>
           <div className="relative aspect-[16/10] rounded-minimal overflow-hidden bg-gray-100 shadow-lg rotate-1 hover:rotate-0 transition-transform duration-500">
