@@ -7,7 +7,7 @@ export default function PartnerBanner() {
       className="relative w-full bg-cover bg-center bg-no-repeat text-white overflow-hidden"
       style={{
         backgroundImage:
-          "url('/images/photoshoot/homepage-hero.jpg')",
+          "url('/images/photoshoot/grow.jpg')",
       }}
     >
       {/* Gradient Overlay */}

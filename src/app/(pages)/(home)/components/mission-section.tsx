@@ -85,7 +85,7 @@ export default function MissionSection() {
             </div>
             <div className="lg:w-1/2">
               <Image
-                src="/images/photoshoot/our-approach.jpg"
+                src="/images/photoshoot/our-approach.jpeg"
                 alt="Children in a classroom"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 width={600}
