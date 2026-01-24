@@ -40,7 +40,6 @@ export const metadata = {
   },
 };
 
-const DIRECT_EMAIL = "thrivefromthorns@gmail.com";
 
 export default function DonatePage() {
   return (
