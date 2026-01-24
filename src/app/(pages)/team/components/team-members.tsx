@@ -96,9 +96,9 @@ function TeamMemberCard({ member }: { member: TeamMember }) {
       </div>
 
       {/* Testimonial */}
-      <p className="text-gray-600 text-sm leading-relaxed italic flex-1">
+      <div className="text-gray-600 text-sm leading-relaxed whitespace-pre-line flex-1">
         &ldquo;{displayText}&rdquo;
-      </p>
+      </div>
 
       {/* Actions */}
       {isLong && (

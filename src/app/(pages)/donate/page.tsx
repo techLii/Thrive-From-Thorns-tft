@@ -63,14 +63,18 @@ export default function DonatePage() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href={`mailto:${DIRECT_EMAIL}?subject=Donation%20Inquiry`}
+                href="https://www.paypal.com/ncp/payment/Z86U34YBF5EL6"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-csag-accent-dark hover:bg-csag-accent-darker text-white font-bold py-3 px-6 rounded-minimal transition-all duration-300 hover:translate-y-[-2px] inline-flex items-center"
               >
                 Arrange a Direct Donation
                 <ArrowRight className="h-5 w-5 ml-2" />
               </a>
               <a
-                href={`mailto:${DIRECT_EMAIL}?subject=Monthly%20Giving%20Plan`}
+                href="https://www.paypal.com/ncp/payment/Z86U34YBF5EL6"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white border border-gray-200 text-csag-primary font-bold py-3 px-6 rounded-minimal transition-colors hover:border-csag-primary/40 inline-flex items-center"
               >
                 Discuss Monthly Giving
@@ -258,7 +262,9 @@ export default function DonatePage() {
               {/* Inline CTA Buttons merged here */}
               <div className="mt-6 flex flex-wrap gap-3">
                 <a
-                  href={`mailto:${DIRECT_EMAIL}?subject=Donation%20Inquiry`}
+                  href="https://www.paypal.com/ncp/payment/Z86U34YBF5EL6"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center bg-white text-csag-primary font-semibold px-6 py-3 rounded-minimal hover:bg-gray-100 transition-all duration-300 hover:translate-y-[-2px]"
                 >
                   Make an Impact Today
