@@ -42,18 +42,15 @@ export default function PartnershipPage() {
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-csag-primary to-csag-accent mb-8 rounded-minimal" />
             <p className="text-gray-700 text-lg leading-relaxed">
-              Be the Difference Between Surviving and Thriving
-              Partnering with Thrive from Thorns means joining a
-              movement that delivers real, measurable transformation.
-              You don&apos;t just fund aid—you fund futures.
+              At Thrive from Thorns, we believe sustainable change is built on collaboration.
+              By partnering with us, you join a mission to empower children, youth, and families
+              across Kenya and Africa, restoring dignity, strength, and purpose.
             </p>
             <p className="text-gray-700 text-lg leading-relaxed mt-4">
-              Thrive From Thorns Kenya actively seeks partnerships with
-              corporate entities, government agencies, churches, schools,
-              universities, colleges, and individuals. Our mission revolves
-              around empowering underprivileged boys and girls in rural Kenya,
-              aiming to combat poverty and illiteracy through education.
-              Together, we&apos;re driving positive change in Kenya.
+              Be the Difference between Surviving and Thriving. Partnering with TFT means
+              joining a movement that delivers real, measurable transformation. You don’t
+              just fund aid—you fund futures. Together, we can transform lives,
+              strengthen communities, and create resilient, purpose-driven generations.
             </p>
             <div className="mt-8 flex gap-4">
               <Link
@@ -90,11 +87,11 @@ export default function PartnershipPage() {
           </div>
 
           <ul className="text-gray-700 text-lg leading-relaxed max-w-4xl list-disc pl-6">
-            <li>100% of resources go to mission (no profits to members)</li>
-            <li>Transparent and audited financial management</li>
-            <li>Real-time impact tracking and updates</li>
-            <li>Ethical governance and local leadership</li>
-            <li>Long-term vision with short-term wins</li>
+            <li>100% Mission-Driven: All resources go directly to programs.</li>
+            <li>Transparent & Accountable: Fully audited financial management.</li>
+            <li>Real-Time Impact Tracking: Stay updated on the difference you make.</li>
+            <li>Ethical Governance: Led by local leaders with integrity.</li>
+            <li>Sustainability: Focus on immediate benefits and long-term futures.</li>
           </ul>
 
         </div>
@@ -175,7 +172,7 @@ export default function PartnershipPage() {
         </div>
         
         */}
-        
+
 
         {/* CTA */}
         <div className="mt-16 text-center">

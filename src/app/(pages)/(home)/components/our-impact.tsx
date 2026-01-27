@@ -17,9 +17,8 @@ export default function OurImpact() {
           </h2>
           <div className="w-24 h-1 bg-csag-accent-light mx-auto mb-8 rounded-minimal"></div>
           <p className="text-lg leading-relaxed opacity-95">
-            Our initiatives have reached thousands of young learners. We provide
-            quality education that empowers them to achieve their full
-            potential.
+            Together with our donors and partners, we are achieving tangible results
+            through education, mentorship, and life skills programs.
           </p>
         </div>
 
@@ -28,23 +27,23 @@ export default function OurImpact() {
           {/* Row 1 */}
           <StatCard
             icon={<Users className="h-8 w-8 text-csag-accent-light" />}
-            label="Students Impacted"
-            description="A vibrant community of learners, each benefiting from enhanced educational opportunities."
-            value="5,000"
+            label="Lives Impacted"
+            description="Children and youth reached through education, mentorship, and life skills programs."
+            value="1,200+"
             delay="0s"
           />
           <StatCard
             icon={<BookOpen className="h-8 w-8 text-csag-accent-light" />}
-            label="Books Distributed"
-            description="A treasure trove of knowledge that sparks imagination and fosters a lifelong love of reading."
-            value="2,500"
+            label="Children Supported"
+            description="Direct sponsorship providing holistic care, education, and health support."
+            value="30+"
             delay="0.05s"
           />
           <StatCard
             icon={<School className="h-8 w-8 text-csag-accent-light" />}
-            label="Schools Reached"
-            description="A network of schools invigorated by our programs, creating supportive learning environments."
-            value="30"
+            label="Growth Observed"
+            description="Regular evaluations confirming improvements in emotional well-being and purpose."
+            value="100%"
             delay="0.1s"
           />
         </div>

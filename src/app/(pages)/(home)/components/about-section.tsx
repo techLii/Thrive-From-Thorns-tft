@@ -12,9 +12,9 @@ export default function AboutSection() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-csag-primary to-csag-accent mx-auto mb-8 rounded-minimal"></div>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
-            Thrive From Thorns (TFT) expands quality learning for rural
-            girls and boys by providing books, trained educators, safe spaces
-            and community support.
+            Thrive from Thorns is a non-profit organization restoring dignity,
+            strength, and purpose to vulnerable children, youth, and families
+            across Kenya and Africa.
           </p>
         </div>
 
@@ -24,14 +24,15 @@ export default function AboutSection() {
               Who We <span className="text-csag-accent">Are</span>
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed text-lg">
-              Since 2024 we have worked alongside schools and families in rural
-              Kenya to remove the barriers that keep children out of classrooms.
-              We focus on literacy, foundational skills and confidence.
+              We exist to restore dignity and strength to those facing the pressing
+              challenges of poverty, broken families, and youth unemployment. Through
+              a holistic approach—incorporating education, mentorship, and economic
+              empowerment—we equip individuals to realize their full potential.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed text-lg">
-              Our volunteer educators, local coordinators and partners deliver
-              practical resources, mentoring and teacher support so every child
-              can learn, stay in school and dream bigger.
+              Our work addresses the root causes of vulnerability, ensuring that
+              today’s impact becomes tomorrow’s generational legacy. We are
+              non-political, inclusive, and ethically governed.
             </p>
             <div className="flex flex-wrap gap-6 mt-10">
               <Link

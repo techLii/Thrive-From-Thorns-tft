@@ -24,15 +24,15 @@ export default function HeroSection() {
         <div className="max-w-6xl mx-auto text-white">
           <div className="animate-fade-in">
             <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold mb-4 md:mb-6 leading-tight">
-              WE DONT JUST
-              <span className="block text-csag-accent-light">CHANGE LIVES</span>
-              WE LAUNCH LEGACIES
+              WE DON’T JUST
+              <span className="block text-csag-accent-light">CHANGE LIVES —</span>
+              WE BUILD LEGACIES
             </h1>
             <p className="text-lg md:text-2xl mb-6 md:mb-8 max-w-3xl leading-relaxed opacity-95">
-              Thrive from Thorns is an African-rooted, purpose-driven nonprofit restoring
-              dignity, strength, and purpose to vulnerable children, youth, and families
-              across Kenya—and beyond. We go beyond aid to deliver lasting wholeness through
-              education, health, economic empowerment, social and spiritual mentorship.
+              Thrive from Thorns (TFT) is an African-rooted, purpose-driven nonprofit
+              restoring dignity, strength, and purpose to vulnerable children, youth, and
+              families across Kenya and Africa. We deliver lasting, measurable transformation
+              through quality education, mental health support, and economic empowerment.
             </p>
             <div className="flex flex-wrap gap-4 md:gap-6 animate-slide-up">
               <Link

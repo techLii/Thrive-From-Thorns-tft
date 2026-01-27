@@ -1,5 +1,5 @@
 import { Flag, Lightbulb, Target } from "lucide-react";
-import { goals, mission, vision } from "../content/about-content";
+import { coreValues, mission, vision } from "../content/about-content";
 
 export default function MissionVisionGoals() {
   return (
@@ -45,11 +45,11 @@ export default function MissionVisionGoals() {
               </h3>
             </div>
             <div className="grid sm:grid-cols-2 gap-6">
-              {goals.map((g, i) => {
-                const Icon = g.icon;
+              {coreValues.map((v, i) => {
+                const Icon = v.icon;
                 return (
                   <div
-                    key={g.title}
+                    key={v.title}
                     className="p-6 border border-gray-200 rounded-minimal bg-gray-50 hover:bg-white transition-colors duration-300 flex flex-col gap-3"
                     style={{ animationDelay: `${i * 0.04}s` }}
                   >
@@ -60,11 +60,11 @@ export default function MissionVisionGoals() {
                         </span>
                       )}
                       <p className="text-sm font-semibold text-csag-accent">
-                        {g.title}
+                        {v.title}
                       </p>
                     </div>
                     <p className="text-gray-700 text-sm leading-relaxed">
-                      {g.text}
+                      {v.text}
                     </p>
                   </div>
                 );

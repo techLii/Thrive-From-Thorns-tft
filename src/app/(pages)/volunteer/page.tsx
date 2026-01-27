@@ -35,28 +35,28 @@ export const metadata = {
 
 const PROGRAMS: { title: string; body: string }[] = [
   {
-    title: "Program Support in Health",
-    body: "Be a part of our team dedicated to improving the health and well-being of underserved communities. You'll work with healthcare professionals and community leaders to develop and implement programs that make an impact.",
+    title: "Program Support – Health",
+    body: "Help us deliver trauma healing, clinical services, and wellness programs to underserved communities. Work alongside healthcare professionals to strengthen the well-being of children, youth, and families.",
   },
   {
-    title: "Program Support in Education",
-    body: "Help ensure every child can access quality education. Work with students, teachers, and staff to provide support where it's needed most and make a difference in the lives of young people.",
+    title: "Program Support – Education",
+    body: "Support students, teachers, and schools to ensure every child has access to quality education. Provide mentorship and guidance that inspires success and transforms lives.",
   },
   {
-    title: "Communications and Outreach",
-    body: "Help us spread our message and inspire others to join. Build strong relationships with our community and raise awareness about our mission.",
+    title: "Communications & Outreach",
+    body: "Spread our mission and inspire others to get involved. Use your creativity to raise awareness, build community connections, and champion the voices of children, youth, and families.",
   },
   {
     title: "Fundraising",
-    body: "Use your skills to help raise funds that power our programs. Identify new funding sources and build relationships with donors and sponsors committed to positive change.",
+    body: "Help fuel programs that empower lives. Identify funding opportunities, build donor relationships, and secure resources that make lasting community impact possible.",
   },
   {
-    title: "Event Planning and Coordination",
-    body: "Join our team of event planners. Help organize impactful events that raise awareness about our mission and inspire others to get involved.",
+    title: "Event Planning & Coordination",
+    body: "Bring your organizational skills and creativity to plan events that educate, inspire, and mobilize communities to take action for children, youth, and families.",
   },
   {
     title: "Marketing",
-    body: "Bring your creativity to develop campaigns that attract more volunteers and donors. Help us reach more people and change more lives.",
+    body: "Develop campaigns that attract volunteers, donors, and supporters. Help us reach more people, increase awareness, and drive real change in the communities we serve.",
   },
 ];
 
@@ -65,15 +65,15 @@ const VOLUNTEER_TESTIMONIALS = TEAM_MEMBERS.slice(0, 3);
 
 const programIcon = (title: string) => {
   switch (title) {
-    case "Program Support in Health":
+    case "Program Support – Health":
       return Stethoscope;
-    case "Program Support in Education":
+    case "Program Support – Education":
       return GraduationCap;
-    case "Communications and Outreach":
+    case "Communications & Outreach":
       return Megaphone;
     case "Fundraising":
       return HandCoins;
-    case "Event Planning and Coordination":
+    case "Event Planning & Coordination":
       return CalendarDays;
     case "Marketing":
       return Target;
