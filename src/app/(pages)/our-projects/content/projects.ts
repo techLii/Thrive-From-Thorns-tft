@@ -21,8 +21,8 @@ export const projects: ProjectItem[] = [
     sector: "Education",
     status: "Completed",
     sponsor: "Thrive From Thorns",
-    partner: "Book For Africa",
-    contributors: ["Kenya Book Trust"],
+    partner: "N/A",
+    contributors: ["N/A"],
     image: "/images/projects/sylvester-lokori.jpg",
     excerpt:
       "Once a boy whose education was sacrificed to the struggle for survival, Sylvester now thrives in school, dreaming of becoming an engineer. His quiet resilience is proof that even among thorns, purpose can take root.",
