@@ -27,8 +27,7 @@ export default function TeamHero() {
               Meet Our <span className="text-csag-accent-light">Team</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl leading-relaxed opacity-95">
-              Dedicated professionals committed to transforming education and
-              creating opportunities for children across Kenya.
+              At Thrive from Thorns, our team is the heartbeat of the transformation we seek. We are a multidisciplinary group of educators, counselors, mentors, social workers, and community leaders united by a shared calling to restore dignity, strength, and purpose. Grounded in local realities and guided by professional excellence, our team walks closely with children, youth, and families—healing trauma, nurturing potential, and building resilience from within communities. More than implementers, we are trusted companions and accountable stewards of every investment, committed to delivering measurable, lasting impact.
             </p>
             <div className="flex flex-wrap gap-6 animate-slide-up">
               <Link

@@ -68,9 +68,7 @@ export default function MissionSection() {
                 Our <span className="text-csag-accent-dark">Approach</span>
               </h3>
               <p className="text-gray-600 mb-6 leading-relaxed text-lg">
-                Our approach blends resource provision, educator empowerment and
-                community mobilization. We co-design solutions with schools so
-                interventions are practical and sustained.
+                Through our HEDEC Intervention, we heal, discover, empower, and equip individuals to contribute positively—building resilient families and thriving communities for generations.
               </p>
               <p className="text-gray-600 mb-8 leading-relaxed text-lg">
                 Vision: {vision}

@@ -12,9 +12,7 @@ export default function AboutSection() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-csag-primary to-csag-accent mx-auto mb-8 rounded-minimal"></div>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
-            Thrive from Thorns is a non-profit organization restoring dignity,
-            strength, and purpose to vulnerable children, youth, and families
-            across Kenya and Africa.
+            We exist to turn pain into purpose and vulnerability into lasting strength—walking alongside children, youth, and families to heal trauma, restore dignity, and create pathways to sustainable transformation.
           </p>
         </div>
 

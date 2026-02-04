@@ -30,8 +30,8 @@ export default function FounderSection() {
             <div className="lg:w-1/3">
               <div className="relative h-96 lg:h-full">
                 <Image
-                  src="/images/volunteers/odanga.jpg"
-                  alt="TWT Chairperson"
+                  src="/images/volunteers/rachael-onyango.jpg"
+                  alt="Rachel Achieng Onyango"
                   className="w-full h-full object-cover"
                   width={400}
                   height={600}
@@ -42,52 +42,48 @@ export default function FounderSection() {
             <div className="lg:w-2/3 p-8 lg:p-12">
               <div className="mb-6">
                 <h3 className="text-3xl font-bold text-gray-900 mb-2">
-                  Dr.{" "}
-                  <span className="text-csag-accent">
-                    Sylvester Odanga
-                  </span>
+                  Rachel <span className="text-csag-accent">Achieng Onyango</span>
                 </h3>
                 <p className="text-xl text-csag-primary font-semibold">
-                  Board Chairperson
+                  Founder & CEO
+                </p>
+                <p className="text-md text-gray-500 font-medium mt-1">
+                  Sociologist | Counselor | Community Development Specialist
                 </p>
               </div>
 
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Dr. Sylvester Odanga is a seasoned educator, counselor, and leadership mentor 
-                  with over three decades of experience in education, faith-based leadership, and 
-                  community development. As Board Chairperson at Thrive from Thrones, he provides 
-                  strategic oversight, ethical governance, and value-based leadership to guide the 
-                  organization’s mission of empowering communities through mental resilience, 
-                  mentorship, and grassroots capacity building.
-
-                  </p>
-                  <p>
-                  Dr. Odanga is the Founder and Director of Dexterity Lifeskills Institute, a 
-                  transformative learning organization equipping young people with life skills 
-                  that complement formal education. He also serves as Senior Pastor at Shalom 
-                  Logos Church in Kisumu and a Lecturer in Educational Psychology at the University 
-                  of Kabianga, integrating academic, spiritual, and psychosocial perspectives in 
-                  his mentorship of youth and emerging leaders.
-                  </p>
-                  <p>
-                  He holds a PhD in Educational Psychology, a Master’s in Guidance and Counselling, 
-                  and is a certified Trainer of Trainers in Counseling. His career began in secondary 
-                  education, where he taught from 1991 to 2019, nurturing thousands of students before 
-                  transitioning into higher education, pastoral ministry, and organizational leadership.
-                  Dr. Odanga’s work is grounded in values of service, integrity, and holistic transformation. 
-                  He has trained hundreds of educators, counselors, and community leaders in emotional wellness, 
-                  ethical leadership, and life skills. His contributions have shaped faith communities, schools, 
-                  and organizations across western Kenya.
+                  Rachel Onyango is a visionary leader driving holistic community transformation. She leads Thrive From Thorns Kenya, empowering children, youth, and families through programs in education, health, economic empowerment, and family strengthening.
                 </p>
                 <p>
-                  As Board Chairperson of Thrive from Thrones, Dr. Odanga brings deep experience in human 
-                  development, strategic thinking, and community engagement—anchoring the organization’s 
-                  vision with wisdom, compassion, and a passion for nurturing resilient, empowered leaders.
+                  With over a decade of experience in strategic leadership, organizational development, and partnership management, Rachel has strengthened systems, expanded fundraising networks, and deepened impact across vulnerable communities.
                 </p>
+                <p>
+                  She also serves as Country Director at Christ’s Hope International Kenya and Managing Partner at SCRIDE Consulting Agency, supporting organizations in planning, training, monitoring, and evaluation.
+                </p>
+                <p>
+                  Rachel’s expertise spans child development, mentorship, program design, safeguarding, and ethical governance. Known for building high-performing teams and fostering inclusive, purpose-driven impact, she combines a strategic mindset with a heart for community resilience.
+                </p>
+
+                <div className="mt-6 p-6 bg-gray-50 rounded-lg border-l-4 border-csag-accent">
+                  <h4 className="font-bold text-gray-900 mb-3">Education & Credentials</h4>
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start">
+                      <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-csag-primary flex-shrink-0"></span>
+                      <span>Bachelor’s in Sociology with IT – Maseno University</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-csag-primary flex-shrink-0"></span>
+                      <span>Pursuing Master’s in Social Development & Management</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="mr-2 mt-1.5 h-1.5 w-1.5 rounded-full bg-csag-primary flex-shrink-0"></span>
+                      <span>Advanced training in Leadership, Monitoring & Evaluation, Biblical Counseling, and Child Development</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-
-
             </div>
           </div>
         </div>

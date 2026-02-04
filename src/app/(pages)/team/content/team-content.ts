@@ -1,22 +1,21 @@
 export const TEAM_MEMBERS = [
   {
-    id: "1",
-    name: "Rachel Onyango | Founder & CEO",
-    designation: "Sociologist, Counselor & Community Development Specialist",
+    id: "2",
+    name: "Dr. Sylvester Odanga | Board Chairperson",
+    designation: "Educator | Counselor | Leadership Mentor",
     socialMedia: "https://www.linkedin.com/in/",
-    imageUrl: "/images/volunteers/rachael-onyango.jpg",
+    imageUrl: "/images/volunteers/odanga.jpg",
     testimonial:
-      "Volunteering as a mentor with Thrive From Thorns Kenya has been life-changing—not just for the youth I work with, but for me as well. I started mentoring a group of teenagers who were struggling with self-confidence and decision-making, guiding them through life skills workshops, career planning, and personal development sessions. One young boy, Joseph, had dropped out of school because he felt he had no future. Over months of mentorship, I watched him rediscover his self-worth, set goals, and even take on leadership roles in his community. TFT doesn’t just teach skills; it transforms mindsets and inspires young people to step boldly into their future.",
+      "Dr. Sylvester Odanga is a seasoned educator, counselor, and leadership mentor with over three decades of experience in education, faith-based leadership, and community development. As Board Chairperson at Thrive from Thrones, he provides strategic oversight, ethical governance, and value-based leadership to guide the organization’s mission of empowering communities through mental resilience, mentorship, and grassroots capacity building.\n\nDr. Odanga is the Founder and Director of Dexterity Lifeskills Institute, a transformative learning organization equipping young people with life skills that complement formal education. He also serves as Senior Pastor at Shalom Logos Church in Kisumu and a Lecturer in Educational Psychology at the University of Kabianga, integrating academic, spiritual, and psychosocial perspectives in his mentorship of youth and emerging leaders.\n\nHe holds a PhD in Educational Psychology, a Master’s in Guidance and Counselling, and is a certified Trainer of Trainers in Counseling. His career began in secondary education, where he taught from 1991 to 2019, nurturing thousands of students before transitioning into higher education, pastoral ministry, and organizational leadership. Dr. Odanga’s work is grounded in values of service, integrity, and holistic transformation. He has trained hundreds of educators, counselors, and community leaders in emotional wellness, ethical leadership, and life skills. His contributions have shaped faith communities, schools, and organizations across western Kenya.\n\nAs Board Chairperson of Thrive from Thrones, Dr. Odanga brings deep experience in human development, strategic thinking, and community engagement—anchoring the organization’s vision with wisdom, compassion, and a passion for nurturing resilient, empowered leaders.",
   },
-
   {
     id: "3",
     name: "CPA Sharon Omondi | Board Treasurer",
-    designation: "Finance Administrator | Certified Public Accountant",
+    designation: "Finance Leader | Governance Expert | CPA-K",
     socialMedia: "https://www.linkedin.com/in/",
     imageUrl: "/images/volunteers/sharon-omondi.jpg",
     testimonial:
-      "I joined TFT to support the sponsorship program, helping children gain access to education and essential resources. I met Grace, a bright 10-year-old girl who had the potential to excel but lacked school fees and learning materials. Through TFT’s sponsorship program, she received full educational support, mentorship, and guidance. Months later, she had not only caught up academically but had become a leader among her peers, mentoring younger students herself. Witnessing the transformative power of sponsorship reinforced why TFT’s model works—it’s about providing more than funds; it’s about giving hope, stability, and the tools for lifelong success.",
+      "Sharon Omondi is a seasoned finance professional and governance leader with extensive experience in accounting, financial management, and nonprofit stewardship. As Board Treasurer at Thrive From Thorns Kenya, she provides strategic financial oversight, fiduciary leadership, and accountability systems that ensure resources are managed with integrity and aligned with the organization’s mission to restore children, youth, and families to dignity, strength, and purpose.\n\nSharon brings expertise in financial governance, compliance, budgeting, internal controls, and risk management, helping the Board and management make sound, data-driven decisions. She oversees financial planning, reporting, audits, and operational sustainability, ensuring transparency across all programs.\n\nA Certified Public Accountant (CPA-K), Sharon has a professional background spanning corporate finance, consulting, and advisory services. She has helped organizations strengthen financial systems, improve compliance, and empower communities with financial literacy.\n\nHer work is grounded in professionalism, ethical stewardship, and accountability, combining strategic insight with disciplined leadership to advance TFT’s long-term impact and sustainable growth.",
   },
 
   {
@@ -26,7 +25,7 @@ export const TEAM_MEMBERS = [
     socialMedia: "https://www.linkedin.com/in/",
     imageUrl: "/images/volunteers/duncan-okuro.jpg",
     testimonial:
-      "Being part of TFT’s economic empowerment programs for families opened my eyes to the power of opportunity. I worked with parents and guardians, helping them learn skills in entrepreneurship, vocational training, and sustainable income generation. One family I worked with had struggled for years to make ends meet. Through training and mentorship, they started a small poultry business, learned financial planning, and began earning enough to support their children’s education. Seeing their pride and independence grow was unforgettable. TFT taught me that empowering families economically doesn’t just alleviate poverty—it restores dignity and strengthens homes.",
+      "Duncan Ouma Okuru is a seasoned development practitioner with over eight years of experience in economic empowerment, entrepreneurship, and inclusion programs across Kenya. He supports refugees, youth, women, and marginalized communities in building sustainable livelihoods, accessing vocational training, and gaining financial literacy.\n\nDuncan currently serves as Economic Inclusion Program Manager at HIAS Refugee Trust of Kenya, leading strategy, partnerships, and implementation for programs that create job opportunities and economic independence. He has also coordinated entrepreneurship and savings groups, led income-generating initiatives, and worked in microfinance, building strong operational systems and client-focused solutions.\n\nHe holds an MBA in Project Management (Kenyatta University), a BA in Economics & Business Studies with IT (Maseno University), and a Project Management Certificate from the European Business University of Luxembourg.\n\nAs a Board Member at Thrive From Thorns Kenya, Duncan brings technical expertise, operational rigor, and a results-driven mindset, anchoring TFT’s work in economic justice, innovation, and community ownership.",
   },
 
   {

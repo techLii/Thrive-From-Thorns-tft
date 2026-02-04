@@ -27,10 +27,7 @@ export default function AboutHero() {
               Who We <span className="text-csag-accent-light">Are</span>
             </h1>
             <p className="text-lg md:text-2xl mb-6 md:mb-8 max-w-3xl leading-relaxed opacity-95">
-              Thrive from Thorns is a registered nonprofit under the Kenya Companies Act,
-              2015. We address the root causes of poverty, family breakdown, harmful cultural
-              practices, poor education, violence, youth unemployment and  holistic mentorship.
-              Through a holistic, trauma-informed approach, we empower people to not just survive—but thrive.
+              Thrive from Thorns exists to turn pain into purpose and vulnerability into lasting strength. Rooted in African realities and guided by a bold vision of restoration, we walk alongside vulnerable children, youth, and families to heal trauma, rebuild dignity, and unlock purpose. Through integrated education, mental health and psychosocial support, life mentorship, and family strengthening, we don’t offer temporary relief—we create pathways to sustainable transformation. Every investment in Thrive from Thorns multiplies into restored lives, resilient families, and future leaders equipped to break cycles of poverty and despair for generations to come.
             </p>
             <div className="flex flex-wrap gap-4 md:gap-6 animate-slide-up">
               <Link
