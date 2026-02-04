@@ -72,7 +72,7 @@ export default function Footer() {
             <div className="flex space-x-4">
               <Link
                 target="_blank"
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/profile.php?id=61586990843001"
                 className="text-gray-400 hover:text-blue-400 transition-colors duration-200 hover:scale-110 transform"
                 aria-label="TFT on Facebook"
                 title="Facebook"
@@ -190,7 +190,7 @@ export default function Footer() {
                 <Phone className="h-5 w-5 mr-3 text-csag-primary mt-1" />
                 <span className="text-gray-300">
                   +254-710-826-262
-                  </span>
+                </span>
               </li>
             </ul>
           </div>
@@ -205,13 +205,12 @@ export default function Footer() {
             </p>
             {nlMsg && (
               <div
-                className={`mb-3 rounded-minimal border px-3 py-2 text-xs ${
-                  nlStatus === "success"
-                    ? "border-green-200 bg-green-50 text-green-800"
-                    : nlStatus === "error"
+                className={`mb-3 rounded-minimal border px-3 py-2 text-xs ${nlStatus === "success"
+                  ? "border-green-200 bg-green-50 text-green-800"
+                  : nlStatus === "error"
                     ? "border-red-200 bg-red-50 text-red-700"
                     : "border-gray-700 bg-gray-800 text-gray-300"
-                }`}
+                  }`}
               >
                 {nlMsg}
               </div>
