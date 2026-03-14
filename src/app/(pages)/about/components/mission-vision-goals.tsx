@@ -15,10 +15,6 @@ export default function MissionVisionGoals() {
                 </h2>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg">{mission}</p>
-              <p className="text-gray-600 text-sm mt-3">
-                We connect schools with dedicated volunteers and practical
-                learning materials so every child can grow.
-              </p>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <div className="flex items-center gap-3 mb-4">

@@ -10,7 +10,8 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { TEAM_MEMBERS } from "../team/content/team-content";
+import { TEAM_MEMBERS, VOLUNTEER_TESTIMONIALS } from "../team/content/team-content";
+import { TestimonialCard } from "./components/testimonial-card";
 
 export const metadata = {
   title: "Volunteer | Thrive From Thorns",
@@ -59,9 +60,6 @@ const PROGRAMS: { title: string; body: string }[] = [
     body: "Develop campaigns that attract volunteers, donors, and supporters. Help us reach more people, increase awareness, and drive real change in the communities we serve.",
   },
 ];
-
-// Pull 3 volunteer testimonials from the Team content
-const VOLUNTEER_TESTIMONIALS = TEAM_MEMBERS.slice(0, 3);
 
 const programIcon = (title: string) => {
   switch (title) {
@@ -181,29 +179,7 @@ export default function VolunteerPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {VOLUNTEER_TESTIMONIALS.map((m) => (
-              <blockquote key={m.id} className="h-full rounded-lg bg-white p-6">
-                <Quote aria-hidden className="h-8 w-8 text-csag-primary/60" />
-                <p className="mt-3 text-gray-800 italic line-clamp-3">
-                  {m.testimonial}
-                </p>
-                <footer className="mt-5 flex items-center gap-4 text-sm text-gray-600">
-                  <Image
-                    src={m.imageUrl}
-                    alt={m.name}
-                    width={56}
-                    height={56}
-                    className="h-14 w-14 rounded-lg object-cover"
-                    sizes="56px"
-                    quality={70}
-                  />
-                  <div>
-                    <span className="block font-semibold text-gray-900">
-                      {m.name}
-                    </span>
-                    <span className="block">{m.designation}</span>
-                  </div>
-                </footer>
-              </blockquote>
+              <TestimonialCard key={m.id} m={m} />
             ))}
           </div>
           <div className="mt-6 flex justify-center">
