@@ -4,13 +4,12 @@ import {
   GraduationCap,
   HandCoins,
   Megaphone,
-  Quote,
   Stethoscope,
   Target,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { TEAM_MEMBERS, VOLUNTEER_TESTIMONIALS } from "../team/content/team-content";
+import { VOLUNTEER_TESTIMONIALS } from "../team/content/team-content";
 import { TestimonialCard } from "./components/testimonial-card";
 
 export const metadata = {
